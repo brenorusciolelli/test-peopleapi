@@ -48,6 +48,7 @@ public class Person {
 		super();
 	}
 
+
 	public Long getId() {
 		return id;
 	}
@@ -57,11 +58,11 @@ public class Person {
 	}
 
 	public String getFistName() {
-		return getFistName();
+		return fistName;
 	}
 
-	public void setFirstName(String firstName) {
-		this.fistName = firstName;
+	public void setFistName(String fistName) {
+		this.fistName = fistName;
 	}
 
 	public String getLastName() {
